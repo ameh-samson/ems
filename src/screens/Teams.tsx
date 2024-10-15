@@ -8,11 +8,14 @@ const Teams = () => {
       <div className="max-w-4xl grid grid-cols-3 gap-5 mx-auto mt-[40px]">
         {TeamsData.map((member) => (
           <div key={member.id} className="bg-white rounded-xl shadow-md p-4">
-            <img
-              className="h-32 w-32 rounded-full mx-auto"
-              src={member.picture}
-              alt={member.name} 
-            />
+            <div className="h-32 w-32 rounded-full mx-auto border overflow-hidden">
+              <img
+                className="size-full object-cover"
+                src={member.picture}
+                alt={member.name}
+              />
+            </div>
+
             <h2 className="text-lg font-semibold text-center mt-2">
               {member.name}
             </h2>

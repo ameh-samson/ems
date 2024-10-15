@@ -1,9 +1,9 @@
 import { TeamsDataType } from "@/types";
-import Onaola from "@/assets/jpg/samson.jpg";
-import Tomide from "@/assets/jpg/samson.jpg";
-import Segun from "@/assets/jpg/samson.jpg";
-import Veronice from "@/assets/jpg/samson.jpg";
-import Samson from "@/assets/jpg/samson.jpg";
+import Onaola from "@/assets/svg/onaola.svg";
+import Tomide from "@/assets/jpg/tomide.jpg";
+import Segun from "@/assets/jpg/segun.jpg";
+import Veronice from "@/assets/jpg/veronica.jpg";
+import Samson from "@/assets/jpg/samson.jpeg";
 
 export const TeamsData: TeamsDataType[] = [
   {
